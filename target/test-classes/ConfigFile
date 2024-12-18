@@ -1,0 +1,8 @@
+browser=chrome
+url = https://naveenautomationlabs.com/opencart/index.php?route=account/account
+username = chest@gmail.com
+password = chest123
+headless = false
+incognito = false
+highlight= true
+hubUrl=http:8080

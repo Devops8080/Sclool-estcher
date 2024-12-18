@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [OpenCart Sep Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" parallel="tests" name="ProductInfo Page Test(failed)" verbose="4">
+    <classes>
+      <class name="Com.qa.Opencart.LoginPageTest.ProductInfoPageTest">
+        <methods>
+          <include name="verifyProductHeader"/>
+          <include name="verifyProductMetaData"/>
+          <include name="productInfoPageSetUp"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.qa.Opencart.LoginPageTest.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- ProductInfo Page Test(failed) -->
+  <test thread-count="5" parallel="tests" name="LoginPage Test(failed)" verbose="4">
+    <classes>
+      <class name="Com.qa.Opencart.LoginPageTest.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTest"/>
+          <include name="verifyCurrentUrl"/>
+          <include name="verifyForgotPasswordLinkDisplat"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.qa.Opencart.LoginPageTest.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage Test(failed) -->
+  <test thread-count="5" parallel="tests" name="AccountPage Test(failed)" verbose="4">
+    <classes>
+      <class name="Com.qa.Opencart.LoginPageTest.AccountPageTest">
+        <methods>
+          <include name="verifyMyAccountLinkDisplay"/>
+          <include name="verifyPasswordLinkDisplay"/>
+          <include name="verifySearchBarDisplay"/>
+          <include name="AccountPageSetUp"/>
+          <include name="verifyProductData"/>
+          <include name="verifyProductCount"/>
+          <include name="SetUp"/>
+          <include name="verifyAccountHeaders"/>
+          <include name="verifyEditAccountLinkDisplayed"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.qa.Opencart.LoginPageTest.AccountPageTest -->
+    </classes>
+  </test> <!-- AccountPage Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Register Page Test(failed)" verbose="4">
+    <classes>
+      <class name="Com.qa.Opencart.LoginPageTest.RegisterTest">
+        <methods>
+          <include name="RegisterPageSetUp"/>
+          <include name="verifyRegTest"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.qa.Opencart.LoginPageTest.RegisterTest -->
+    </classes>
+  </test> <!-- Register Page Test(failed) -->
+</suite> <!-- Failed suite [OpenCart Sep Regression Suite] -->
